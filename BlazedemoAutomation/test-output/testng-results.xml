@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BlazeDemo Automation" duration-ms="16897" started-at="2021-12-19T10:52:56Z" finished-at="2021-12-19T10:53:13Z">
+    <groups>
+    </groups>
+    <test name="Select Flight Test" duration-ms="7315" started-at="2021-12-19T10:52:56Z" finished-at="2021-12-19T10:53:03Z">
+      <class name="com.blazedemo.testcases.SelectFlightTest">
+        <test-method status="PASS" signature="selectFlightTest(java.util.Hashtable)[pri:0, instance:com.blazedemo.testcases.SelectFlightTest@5038d0b5]" name="selectFlightTest" duration-ms="7094" started-at="2021-12-19T10:52:56Z" data-provider="dp" finished-at="2021-12-19T10:53:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{texttoverify=Flights from Boston to London:, destinationcity=London, departurecity=Boston, airline=Virgin America}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlightTest -->
+      </class> <!-- com.blazedemo.testcases.SelectFlightTest -->
+    </test> <!-- Select Flight Test -->
+    <test name="Purchase Flight Test" duration-ms="6325" started-at="2021-12-19T10:53:04Z" finished-at="2021-12-19T10:53:10Z">
+      <class name="com.blazedemo.testcases.PurchaseFlightTest">
+        <test-method status="PASS" signature="purchaseFlightTest(java.util.Hashtable)[pri:0, instance:com.blazedemo.testcases.PurchaseFlightTest@7d61eb55]" name="purchaseFlightTest" duration-ms="6226" started-at="2021-12-19T10:53:04Z" data-provider="dp" finished-at="2021-12-19T10:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{state=NY, name=Test User, nameoncard=Test User, city=Boston, month=11.0, year=2022.0, zipcode=10010.0, cardtype=Visa, cardnumber=4111111111111111, address=123 1st Main}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseFlightTest -->
+      </class> <!-- com.blazedemo.testcases.PurchaseFlightTest -->
+    </test> <!-- Purchase Flight Test -->
+    <test name="Confirm Flight Test" duration-ms="2366" started-at="2021-12-19T10:53:10Z" finished-at="2021-12-19T10:53:13Z">
+      <class name="com.blazedemo.testcases.ConfirmFlightTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.testcases.ConfirmFlightTest@4bff7da0]" name="setUp" is-config="true" duration-ms="18060" started-at="2021-12-19T10:52:38Z" finished-at="2021-12-19T10:52:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="confirmFlightTest(java.util.Hashtable)[pri:0, instance:com.blazedemo.testcases.ConfirmFlightTest@4bff7da0]" name="confirmFlightTest" duration-ms="2349" started-at="2021-12-19T10:53:10Z" data-provider="dp" finished-at="2021-12-19T10:53:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{status=Status, confirmmessage=Thank you for your purchase today!, statusvalue=PendingCapture}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmFlightTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.testcases.ConfirmFlightTest@4bff7da0]" name="tearDown" is-config="true" duration-ms="1546" started-at="2021-12-19T10:53:13Z" finished-at="2021-12-19T10:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.testcases.ConfirmFlightTest -->
+    </test> <!-- Confirm Flight Test -->
+  </suite> <!-- BlazeDemo Automation -->
+</testng-results>
