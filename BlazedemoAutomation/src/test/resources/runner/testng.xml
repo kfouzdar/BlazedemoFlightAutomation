@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BlazeDemo Automation">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.blazedemo.listeners.CustomListeners" />
+	</listeners>
+
+
+	<test name="Select Flight Test">
+		<classes>
+			<class name="com.blazedemo.testcases.SelectFlightTest" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Purchase Flight Test">
+		<classes>
+			<class name="com.blazedemo.testcases.PurchaseFlightTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Confirm Flight Test">
+		<classes>
+			<class name="com.blazedemo.testcases.ConfirmFlightTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
